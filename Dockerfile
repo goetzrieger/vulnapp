@@ -11,7 +11,7 @@ RUN sed -i 's/Listen 80/Listen 8080/' \
   && chgrp -R 0 /var/log/httpd24 /opt/rh/httpd24/root/var/run/httpd \
   && chmod -R g=u /var/log/httpd24 /opt/rh/httpd24/root/var/run/httpd
 
-EXPOSE 8081
+EXPOSE 8080
 
 USER 1001
 
