@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi7/ubi:7.7-99
+FROM registry.access.redhat.com/ubi7/ubi:7.9-297
 
 RUN yum -y install --disableplugin=subscription-manager \
   httpd24 rh-php72 rh-php72-php \
